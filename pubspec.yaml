@@ -4,6 +4,9 @@ version: 0.0.1
 author: Özcan Esnaf <ozcan.esnaf@gmail.com>
 homepage: https://github.com/ozc/flutter-phonecallstate
 
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+  
 dependencies:
   flutter:
     sdk: flutter
