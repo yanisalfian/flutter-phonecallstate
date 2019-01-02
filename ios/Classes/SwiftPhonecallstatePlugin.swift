@@ -22,8 +22,8 @@ public class SwiftPhonecallstatePlugin: NSObject, FlutterPlugin, CXCallObserverD
     }
 
     init(channel:FlutterMethodChannel){
-        super.init()
         _channel = channel
+        super.init()
 
         setupCallObserver()
     }
